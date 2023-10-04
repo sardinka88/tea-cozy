@@ -1,0 +1,124 @@
+* {
+  font-family: Helvetica;
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+}
+
+.logo {
+  padding: 10px;
+  height: 50px;
+}
+
+.nav.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.hero-banner {
+  display: flex;
+  background-image: url("./img/img-mission-background.jpg");
+  height: 700px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.locations-banner {
+    max-width: 1200px;
+    min-height: 600px;
+    background-image: url("./img/img-locations-background.jpg");
+    margin-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locations-banner h2 {
+    background-color: transparent;
+    color: black;
+}
+
+.locations.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: transparent;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact {
+    min-height: 200px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    margin-left: 20px;
+}
